@@ -1,8 +1,6 @@
 var expect = require("chai").expect;
+var sum = require("../src/operacoes").sum;
 
-function sum(a,b) {
-	return a + b;
-}
 
 describe("My opeartions", function() {
 
